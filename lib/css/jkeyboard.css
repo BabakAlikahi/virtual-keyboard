@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 5% 15%;
+    box-sizing: border-box;
+}
+
+.wrapper .parts {
+    background: #7a7a7a;
+    border: 20px solid rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.wrapper .parts .text_number_input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.wrapper .parts .keyboard {
+    background-color: #ecebeb;
+    box-sizing: border-box;
+    font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    overflow: hidden;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    padding-top: 5px;
+    display: none;
+}
+
+.wrapper .parts .keyboard .jkeyboard {
+    display: inline-block;
+}
+
+.wrapper .parts .keyboard .jkeyboard,
+.wrapper .parts .keyboard .jkeyboard .jline,
+.wrapper .parts .keyboard .jkeyboard .jline ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline {
+    text-align: center;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline ul {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline ul li {
+    list-style-type: none;
+    width: 55px;
+    line-height: 40px;
+    padding: 5px;
+    margin: 0 0.5%;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    border: 1px solid #a3a3a3;
+    -webkit-box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.3);
+    color: #272827;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline ul li.uppercase {
+    text-transform: uppercase !important;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline ul li:hover,
+.wrapper .parts .keyboard .jkeyboard .jline ul li:active {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: whitesmoke;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline .return {
+    width: 57px;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline .space {
+    width: 265px;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline .numeric_switch {
+    width: 84px;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline .layout_switch {
+    width: 80px !important;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline .shift,
+.wrapper .parts .keyboard .jkeyboard .jline .shift1,
+.wrapper .parts .keyboard .jkeyboard .jline .shift2 {
+    width: 57px;
+    background: url("../assets/shift2.png") no-repeat center center;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline .backspace {
+    width: 55px;
+    background: url("../assets/backspace2.png") no-repeat center center;
+}
+
+.wrapper .parts .keyboard .jkeyboard .jline .close {
+    width: 210px !important;
+    background-color: #549ac2;
+    color: whitesmoke;
+}
+
+
+/*# sourceMappingURL=jkeyboard.css.map */
